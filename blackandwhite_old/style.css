@@ -9,15 +9,13 @@ body {
 
 #wrap {
   width: 760px;
-  overflow: auto;
   margin: 20px auto;
   border: 3px solid #000;
-  text-align: justify;
   background: #fff;
 }
 
 #header {
-  background: #fff;
+  background: #2CB455;
   text-align: center;
   border-bottom: 3px solid #000;
   padding: 20px;
@@ -31,14 +29,6 @@ body {
 #header h2 {
   font-size: 12px;
   color: #666;
-  opacity: 0.5;
-  font-style: italic;
-}
-
-#content h3 {
-  font-size: 12px;
-  color: #666;
-  opacity: 0.5;
   font-style: italic;
 }
 
@@ -68,37 +58,17 @@ body {
   padding: 10px;
 }
 
-#sidebar {
-float: right;
-width: 180px;
-background: #fff;
-color: #fff;
-padding: 10px;
+#sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  background: #333;
+  margin: 5px 0;
+  padding: 5px;
 }
 
-#sidebar ul.main-nav {
-list-style-type: none;
-padding: 0;
-margin: 0;
-}
-
-#sidebar ul.main-nav li a {
-display: block;
-background: #333;
-color: #fff;
-text-decoration: none;
-padding: 5px;
-margin: 5px 0;
-}
-
-#sidebar ul.main-nav li a.white-button {
-background: #fff;
-color: #000;
-}
-
-#sidebar ul.main-nav li a:hover {
-background: #666;
-color: #fff;
+#sidebar a:hover {
+  background: #666;
 }
 
 #sidebar h3 {
@@ -111,29 +81,6 @@ margin-top: 20px;
 margin-bottom: 10px;
 }
 
-#sidebar p.sidebar-links {
-text-align: center;
-}
-#sidebar p.sidebar-links a {
-color: #369;
-text-decoration: none;
-}
-#sidebar p.sidebar-links a:hover {
-text-decoration: underline;
-}
-
-#sidebar ul.link-list {
-padding-left: 20px;
-margin-top: 10px;
-}
-#sidebar ul.link-list li a {
-color: #369;
-text-decoration: none;
-}
-#sidebar ul.link-list li a:hover {
-text-decoration: underline;
-}
-
 #footer {
   clear: both;
   border-top: 3px solid #000;
@@ -141,3 +88,4 @@ text-decoration: underline;
   font-size: 11px;
   padding: 10px;
 }
+
