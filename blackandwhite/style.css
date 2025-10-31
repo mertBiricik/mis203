@@ -9,6 +9,7 @@ body {
 
 #wrap {
   width: 760px;
+  overflow: auto;
   margin: 20px auto;
   border: 3px solid #000;
   background: #fff;
@@ -122,4 +123,12 @@ text-decoration: none;
 }
 #sidebar ul.link-list li a:hover {
 text-decoration: underline;
+}
+
+#footer {
+  clear: both;
+  border-top: 3px solid #000;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
 }
